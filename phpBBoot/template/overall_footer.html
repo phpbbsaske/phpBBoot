@@ -1,0 +1,47 @@
+	</div>
+
+<div id="page-footer" class="container">
+
+
+        <div class="navbar navbar-inverse">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".bs-navbar-scroll-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Title</a>
+          <div class="collapse nav-collapse nav-collapse-scrollable bs-navbar-scroll-collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="{U_INDEX}" accesskey="h">{L_INDEX}</a></li>
+			  <!-- IF not S_IS_BOT -->
+			  <!-- IF S_WATCH_FORUM_LINK --><li><a href="{S_WATCH_FORUM_LINK}" title="{S_WATCH_FORUM_TITLE}">{S_WATCH_FORUM_TITLE}</a></li><!-- ENDIF -->
+             <!-- IF U_WATCH_TOPIC --><li><a href="{U_WATCH_TOPIC}" title="{L_WATCH_TOPIC}">{L_WATCH_TOPIC}</a></li> <!-- ENDIF -->
+             <!-- IF U_BOOKMARK_TOPIC --><li><a href="{U_BOOKMARK_TOPIC}" title="{L_BOOKMARK_TOPIC}">{L_BOOKMARK_TOPIC}</a></li><!-- ENDIF -->
+              <!-- IF U_BUMP_TOPIC --><li><<a href="{U_BUMP_TOPIC}" title="{L_BUMP_TOPIC}">{L_BUMP_TOPIC}</a></li> <!-- ENDIF -->
+              <!-- ENDIF -->
+			 <!-- IF U_TEAM --> <li><a href="{U_TEAM}">{L_THE_TEAM}</a></li><!-- ENDIF -->
+			  <!-- IF not S_IS_BOT --><li><a href="{U_DELETE_COOKIES}">{L_DELETE_COOKIES}</a></li><!-- ENDIF -->
+			  <li><a>{S_TIMEZONE}</a></li>
+            </ul>
+
+          </div><!-- /.nav-collapse -->
+        </div><!-- /.container -->
+
+	<div class="copyright">{CREDIT_LINE}
+	<br>
+	©<a href="http://www.phpbbsaske.es">phpBBoot</a> style created by <a href="http://www.phpbbsaske.es" >Saske</a> using <a href="http://getbootstrap.com">bootstrap</a> from twitter.
+		<!-- IF TRANSLATION_INFO --><br>{TRANSLATION_INFO}<!-- ENDIF -->
+		<!-- IF DEBUG_OUTPUT --><br>{DEBUG_OUTPUT}<!-- ENDIF -->
+		<!-- IF U_ACP --><br><strong><a href="{U_ACP}">{L_ACP}</a></strong><!-- ENDIF -->
+	</div>
+</div>
+
+</div>
+
+<div>
+	<a id="bottom" name="bottom" accesskey="z"></a>
+	<!-- IF not S_IS_BOT -->{RUN_CRON_TASK}<!-- ENDIF -->
+</div>
+
+</body>
+</html>
